@@ -22,6 +22,6 @@ router.get('/user/signup', function(req, res, next){
   res.render('user/signup');
 });
 router.post('/user/signup', function(req, res, next){
-  res.redirect('index');
+  res.redirect('/');
 });
 module.exports = router;
