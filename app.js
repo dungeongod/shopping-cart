@@ -7,7 +7,7 @@ var expressHbs = require('express-handlebars');
 var passport = require('passport');
 var flash = require('connect-flash');
 
-var indexRouter = require('./routes/index')(passport);
+var indexRouter = require('./routes/index');
 var mongoose = require('mongoose');
 var session = require('express-session');
 
